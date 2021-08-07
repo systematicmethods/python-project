@@ -28,7 +28,9 @@ mkdir -p ${MOD_DIR}
 mkdir -p tests
 touch ${MOD_DIR}/__init__.py
 touch ${MOD_DIR}/${MODULE}.py
+touch ${MOD_DIR}/helpers.py
 touch tests/${MODULE}_tests.py
+touch tests/helpers_tests.py
 cp -f ${SCRIPT_DIR}/LICENSE .
 cp ${SCRIPT_DIR}/py.gitignore .gitignore
 touch requirements.txt
